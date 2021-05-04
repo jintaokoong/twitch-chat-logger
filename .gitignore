@@ -3,6 +3,7 @@
 
 # nodejs
 node_modules/
+dist/
 
 *.log
 
