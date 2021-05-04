@@ -3,3 +3,8 @@
 
 # nodejs
 node_modules/
+
+*.log
+
+# app config
+app-config.json
