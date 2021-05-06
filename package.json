@@ -7,13 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "dev": "ts-node-dev src/index.ts",
-    "start": "node ./dist"
+    "start": "node ./dist",
+    "clear":  "rm *.log",
+    "clean": "rm -rf node_modules"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^15.0.1",
+    "pkg": "^5.1.0",
     "ts-node": "^9.1.1",
     "ts-node-dev": "^1.1.6",
     "typescript": "^4.2.4"
